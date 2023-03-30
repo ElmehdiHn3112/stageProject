@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.5px;
+}
+*{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Hind Siliguri', sans-serif; */
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+
+  position: relative;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000b3;
+  padding: 20px 70px;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+
+}
+ .header .cover {
+width: 100%;
+  max-height: 700px;
+  min-height: 600px;
+  object-fit: cover;
+}
+
+.header--description{
+position: absolute;
+top: 65%;
+left: 23%;
+transform: translate(-23%, -65%);
+}
+
+
+.header--description_name{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #fcc212;
+  text-shadow: -2px 4px 10px black;
+}
+
+.header--description_quote{
+      color: #fff;
+      font-size: 2.3rem;
+       
+}
+
+.header--description h3{
+  color: #fff;
+  font-size: 1.09rem;
+  font-weight: 200;
+}
+
+.header--description_contactez-nous{
+  padding: 14px 31px;
+  border-radius: 29px;
+  border: 1px solid #ffc1078f;
+  background-color: #000000a3;
+  color: #ffc10780;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: .3s;
+  outline: none;
+}
+
+.header--description_contactez-nous:hover{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #ffc107ca;
+}
+
+.header--dark_background{
+  width: 100%;
+  height: 100%;
+  background-color: #0000006e;
+  position: absolute;
+}
+
+.btns{
+  position: absolute;
+  bottom: 4%;
+  /* left: 14%;
+  transform: translate(-14%); */
+  left: 22%;
+  transform: translate(-25%);
+  width: 595px;
+  
+}
+
+/* navbar style by Hjr */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000b3;
+  padding: 20px 70px;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+.logo--container img {
+  width: 60px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+}
+
+#navbar li {
+  list-style: none;
+
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover {
+  color: rgb(194, 170, 33);
+  text-decoration: underline;
+}
+
+.logo--container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logo--container span{
+    color: rgb(194, 170, 33);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btns button{
+  background-color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    border: 0;
+}
+.btns button:hover{
+  background-color: #ffffffd9;
+}
+
+.btns button img{
+  width: 17px;
+  
+}
+.btns button:hover{
+  background-color: #ffffffd9;
+  
+}
+
+
+.arrows-container{
+  display: flex;
+}
+.padding{
+  padding: 0 200px;
+}
+.cards{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+}
+.cards .card{
+  width: 400px;
+}
+
+.cards .card img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
