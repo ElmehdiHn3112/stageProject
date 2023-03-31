@@ -1,2 +1,6 @@
-https://mocki.io/v1/0766df41-ed59-4896-8528-d18eb838ce53
+https://mocki.io/v1/5ac08013-144d-4af4-a023-d76edf0e092e
+categories 
+https://mocki.io/v1/c3c06146-10d7-4d7d-8825-ae6d841fc758
 //all products
+
+https://mocki.io/v1/102d5fe3-d5f6-4fe3-91ae-a3ac94d5c2a5

@@ -1,6 +1,9 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom';
 import Categories from './Categories';
+import Products from './Products';
+
 
 
 const Section = () => {
@@ -53,7 +56,7 @@ const Section = () => {
                     <h2 className='header--description_quote'>
                         La beauté intemporelle de la pierre naturelle.
                     </h2>
-                    <h3>le groupe de Najah Marbre et fondé en 1997 dans la capitale Rabat</h3>
+                    <h3>le groupe de Najah Marbre et fondé en 2015 dans Sala al jadida</h3>
                     <button className='header--description_contactez-nous'>contactez-nous</button>
                 </div>
                 <div className="btns">
@@ -70,6 +73,10 @@ const Section = () => {
             </div>
 
             <Categories />
+            <Products nbr={7} />
+            <div className='products_btn_container'>
+                <NavLink to={"/produits"} className='header--description_contactez-nous'>voir tout les produits</NavLink>
+            </div>
 
         </>
     )
