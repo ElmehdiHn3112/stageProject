@@ -12,7 +12,7 @@ const Products = (props) => {
     return (
         <>
             <div className="padding">
-                <h2>Products</h2>
+                <h2 className='title'>Products</h2>
                 <div className='products'>
                     {
                         marbles?.map((m, i) => i > props.nbr ? "" : <Product product={m} />)

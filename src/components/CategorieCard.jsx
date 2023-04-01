@@ -4,12 +4,16 @@ import { NavLink } from 'react-router-dom'
 const CategorieCard = ({ data }) => {
     return (
         <>
-            <div className='card'>
-                <NavLink to={`/marbre/${data.nom}`} >
+            <NavLink to={`/marbre/${data.nom}`} >
+                <div className='card'>
                     <img src={data.img} alt="" />
-                </NavLink>
-                <h3> {data.nom} </h3>
-            </div>
+                    <div className='categorie_container'>
+                        <h3 className='categorie_title'> {data.nom} </h3>
+                        <img className='categorie_arrow' src={require('../images/categorie_arrow.png')} alt="" />
+                        {/* <img className='categorie_arrow' src={require('../images/categorie_arrow_v2.png')} alt="" /> */}
+                    </div>
+                </div>
+            </NavLink>
         </>
     )
 }

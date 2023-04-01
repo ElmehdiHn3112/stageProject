@@ -4,11 +4,14 @@ function Navbar() {
   return (
 
     <nav>
-      <div className="logo--container">
-        <img src={require("../images/logov5.png")} alt="logo" />
-        <span>najah marbre</span>
+      <NavLink to={'/'} >
 
-      </div>
+        <div className="logo--container">
+          <img src={require("../images/logov5.png")} alt="logo" />
+          <span>najah marbre</span>
+
+        </div>
+      </NavLink>
       <div>
         <ul id="navbar">
           <li>
